@@ -167,7 +167,13 @@ p {
 /* hero */
 
 .hero-section {
-    background-color: #2e2f42;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/people-office.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 1440px;
+    margin: 0 auto;
+
     padding-top: 188px;
     padding-bottom: 188px;
 }
